@@ -21,9 +21,9 @@ console.log(person1)*/
 
 /*function fullName(fname,lname){
     return fname+lname
-}
+}*/
 
-let fullName2=(fname,lname)=> fname+lname
+/*let fullName2=(fname,lname)=> fname+lname
 
 console.log("Mercy","Muthoni")
 fullName2()*/
@@ -128,7 +128,7 @@ order(2,production)*/
 
 let is_shop_open=true
 
-/*let order=(time,work)=>{
+let order=(time,work)=>{
  return new Promise((resolve,reject)=>{
   
     if(is_shop_open){
@@ -183,7 +183,7 @@ order(2000,()=>console.log(`${stocks.flavours[3]} was selected`))
     console.log(`The day has ended. Shop closed`)
 })
 
-*/
+
 
 /*async function order(){
     try{ 
@@ -224,7 +224,7 @@ console.log("Doing the dishes")
 console.log("Cleaning the tables")
 console.log("Taking other orders")*/
 
-function time(ms){
+/*function time(ms){
     return new Promise((resolve,reject)=>{
             if(is_shop_open){ 
                 setTimeout(resolve,ms)
@@ -270,4 +270,25 @@ async function kitchen(){
         console.log("Day ended. Shop is closed.")
     }
 }
-kitchen()
+kitchen()*/
+
+/*let fruits=[
+    {name:"mango",color:"yellow",price:30},
+    {name:"plums",color:"maroon",price:100},
+    {name:"apple",color:"red",price:40},
+    {name:"tangerine",color:"orange",price:30},
+    {name:"lime",color:"green",price:10}
+
+]*/
+ /*function fruitname(details){
+    console.log(details.color)
+ }
+ fruits.forEach(fruitname)*/
+
+ /*let fruitname=(details)=>{console.log(details.color)}
+ fruits.forEach(fruitname)*/
+
+ //fruits.forEach((details)=>{console.log(details.price)})
+ /*let sum=fruits.reduce((acc,item)=>{ 
+    return acc+item.price},0)
+console.log(sum)*/
